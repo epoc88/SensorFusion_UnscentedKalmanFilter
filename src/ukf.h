@@ -95,6 +95,13 @@ class UKF {
 
   // Sigma point spreading parameter
   double lambda_;
+
+  // current NIS for radar
+  double NIS_radar_;
+
+  // current NIS for lidar
+  double NIS_lidar_;
+
 };
 
 #endif  // UKF_H
